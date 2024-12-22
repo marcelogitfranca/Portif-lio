@@ -176,3 +176,82 @@ footer a {
     color: rgb(24, 34, 54);
     text-decoration: none;
 }
+
+/* Responsividade para dispositivos menores */
+@media (max-width: 768px) {
+    header {
+        padding: 40px 10px;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    header p {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    #areas-atuacao ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #obras-realizadas img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    #sobre-nos p {
+        font-size: 14px;
+    }
+
+    .dados-cadastrais div {
+        padding: 10px;
+    }
+
+    #areas-atuacao ul {
+        gap: 5px;
+    }
+
+    #areas-atuacao img {
+        max-width: 100%;
+    }
+
+    #obras-realizadas img {
+        max-width: 100%;
+    }
+}
