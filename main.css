@@ -1,0 +1,178 @@
+/* Resetando margens e preenchimentos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo a fonte principal */
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsla(160, 33%, 53%, 0.778);
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-image: url(https://www.demolidorafortaleza.com.br/blog/wp-content/uploads/2022/01/demolicao5g-1024x483.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 6.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(97, 162, 237);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a {
+    color: rgb(97, 162, 237);
+    text-decoration: none;
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Estilo das seções */
+section {
+    margin-bottom: 30px;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: rgba(15, 50, 195);
+}
+
+h2 {
+    font-size: 4.3rem;
+    color: #2d3e50;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Estilo para os dados cadastrais */
+.dados-cadastrais div {
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.dados-cadastrais p strong {
+    font-size: 24px;
+}
+
+.dados-cadastrais strong {
+    font-weight: bold;
+}
+
+/* Estilo do texto sobre a empresa */
+#sobre-nos p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#sobre-nos p strong {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#areas-atuacao {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Estilo das áreas de atuação */
+#areas-atuacao ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+}
+
+#areas-atuacao ul li {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#areas-atuacao img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* Estilo das obras realizadas */
+#obras-realizadas div {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#obras-realizadas img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#obras-realizadas h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Ajustes para links e interatividade */
+a {
+    color: #2d3e50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    color: rgb(10, 18, 243);
+    text-align: center;
+}
+
+footer a {
+    color: rgb(24, 34, 54);
+    text-decoration: none;
+}
